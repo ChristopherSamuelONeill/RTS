@@ -7,13 +7,13 @@
 
 #include "Sound.h"
 #include "TextureObject.h"
-#include "Clickable.h"
+#include "Selectable.h"
 
 using namespace sf;
 using namespace std;
 
 
-class Building : public Drawable , public Clickable
+class Building : public Drawable , public Selectable
 {
 
 private :

@@ -33,6 +33,7 @@ TextureObject *m_Gametextures;// \brief handle to all game textures
 
 
 //selections bools
+//_----------------------------------------OLD CODE-------------------------------------
 bool RoadSelectorBool = false; // true while choosing road
 bool LightSelectorBool = false; // true while choosing roads
 bool unitsSelectorBool = false; // true while altering units

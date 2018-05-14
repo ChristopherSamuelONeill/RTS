@@ -70,9 +70,9 @@ Building::Building(int id , Vector2f pos, float rot, string path)
 
 	file.close();
 
-	m_sfVTopLeftPos = pos;
-	m_sfVSize = m_sfSize;
+	
 
+	//stuffs for rencering
 	m_sfBuildingTexture = m_Gametextures->m_vBuildPaceHolders[textureId];
 	m_sfPosition = pos;
 	m_fRotation = rot;
@@ -88,6 +88,11 @@ Building::Building(int id , Vector2f pos, float rot, string path)
 	m_sfBuildingSprite.setTexture(m_sfBuildingTexture);
 	m_sfBuildingSprite.setOrigin(m_sfSize / 2.0f);
 	m_sfBuildingSprite.setRotation(m_fRotation);
+
+
+	//Clicking bound box
+	m_sfCollisionRect = m_sfRect.getGlobalBounds();
+
 
 	cout << endl << "Spawned " << m_sName << endl;
 
