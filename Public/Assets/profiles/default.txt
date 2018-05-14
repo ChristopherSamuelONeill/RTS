@@ -1,0 +1,4 @@
+c xres yres full texures gme vl ivl mvl 
+s 1920 1080 0 1 50 50 50
+c name level xp tPed tCar cTot fTot fRat 
+d default 0 0 0 0 0 0 0 

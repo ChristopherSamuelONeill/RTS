@@ -1,0 +1,19 @@
+# unitid ageId	costType	Cost ( units / ticks)
+p 0	 0	time		1000
+p 0	 0	food		100
+p 1	 0	time		1500
+p 1	 0	food		25
+p 1	 0	wood		25
+p 2	 0	time		2500
+p 2	 0	food		75
+p 2	 0	wood		25
+p 3	 0	time		2500
+p 3	 0	food		150
+p 3	 0	wood		25
+p 3	 0	iron		25
+p 3	 0	gold		25
+p 3	 0	time		2500
+p 3	 0	food		50
+p 3	 0	wood		25
+p 3	 0	iron		5
+						

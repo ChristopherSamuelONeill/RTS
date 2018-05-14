@@ -1,0 +1,3 @@
+# id	name	health	attack	attacktpye	range(m) 	rate of atttack defence		movementSpeed(m/s)	melle , sword , spear , arrow , bullet , other carryCap	textureId	
+m 4	Spearman 96	10	spear		2		1		2		3.4			5	1	1	10	0	25	0 	1
+m 5	Archer   50	50	arrow		100		0.2		2		4.4			5	0	0	1	0	15	0	1

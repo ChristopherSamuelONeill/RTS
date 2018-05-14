@@ -1,0 +1,4 @@
+c x res y res full texures gme vl ivl mvl 
+s 2560 1440 0 1 50 50 50
+c name level xp tPed tCar cTot fTot fRat 
+d chris 0 0 0 0 0 0 0 
