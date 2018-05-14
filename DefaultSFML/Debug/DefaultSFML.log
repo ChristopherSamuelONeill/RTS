@@ -1,0 +1,163 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\WDExpress\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (DefaultSFML.vcxproj, TrafficManagement.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Achievement.cpp
+  Building.cpp
+d:\projects\rts game\rts\defaultsfml\include\profile.h(115): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\building.cpp(41): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Button.cpp
+d:\projects\rts game\rts\defaultsfml\include\profile.h(115): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\button.cpp(39): warning C4244: 'initializing': conversion from 'size_t' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\button.cpp(49): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\button.cpp(63): warning C4244: 'initializing': conversion from 'size_t' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\button.cpp(69): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+  CollisionDetection.cpp
+d:\projects\rts game\rts\defaultsfml\src\collisiondetection.cpp(45): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\collisiondetection.cpp(46): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\collisiondetection.cpp(47): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\collisiondetection.cpp(48): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\collisiondetection.cpp(50): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\collisiondetection.cpp(51): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\collisiondetection.cpp(52): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\collisiondetection.cpp(53): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\collisiondetection.cpp(133): warning C4305: 'initializing': truncation from '__int64' to 'float'
+d:\projects\rts game\rts\defaultsfml\src\collisiondetection.cpp(134): warning C4305: 'initializing': truncation from '__int64' to 'float'
+d:\projects\rts game\rts\defaultsfml\src\collisiondetection.cpp(135): warning C4305: 'initializing': truncation from '__int64' to 'float'
+d:\projects\rts game\rts\defaultsfml\src\collisiondetection.cpp(136): warning C4305: 'initializing': truncation from '__int64' to 'float'
+  Controller.cpp
+d:\projects\rts game\rts\defaultsfml\src\controller.cpp(15): warning C4018: '<': signed/unsigned mismatch
+d:\projects\rts game\rts\defaultsfml\src\controller.cpp(54): warning C4018: '<': signed/unsigned mismatch
+d:\projects\rts game\rts\defaultsfml\src\controller.cpp(79): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\controller.cpp(81): warning C4018: '<': signed/unsigned mismatch
+d:\projects\rts game\rts\defaultsfml\src\controller.cpp(86): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\controller.cpp(247): warning C4018: '<': signed/unsigned mismatch
+d:\projects\rts game\rts\defaultsfml\src\controller.cpp(318): warning C4018: '<': signed/unsigned mismatch
+d:\projects\rts game\rts\defaultsfml\src\controller.cpp(320): warning C4018: '<': signed/unsigned mismatch
+d:\projects\rts game\rts\defaultsfml\src\controller.cpp(333): warning C4244: 'argument': conversion from 'float' to 'const unsigned int', possible loss of data
+  Node.cpp
+  Pathfinding.cpp
+d:\projects\rts game\rts\defaultsfml\src\pathfinding.cpp(28): warning C4018: '<': signed/unsigned mismatch
+  Clickable.cpp
+d:\projects\rts game\rts\defaultsfml\include\profile.h(115): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\clickable.cpp(25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Game.cpp
+d:\projects\rts game\rts\defaultsfml\include\profile.h(115): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\game.cpp(30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\game.cpp(53): warning C4018: '<': signed/unsigned mismatch
+d:\projects\rts game\rts\defaultsfml\src\game.cpp(58): warning C4018: '<': signed/unsigned mismatch
+d:\projects\rts game\rts\defaultsfml\src\game.cpp(61): warning C4018: '<': signed/unsigned mismatch
+d:\projects\rts game\rts\defaultsfml\src\game.cpp(92): warning C4018: '<': signed/unsigned mismatch
+d:\projects\rts game\rts\defaultsfml\src\game.cpp(96): warning C4018: '<': signed/unsigned mismatch
+d:\projects\rts game\rts\defaultsfml\src\game.cpp(98): warning C4018: '<': signed/unsigned mismatch
+d:\projects\rts game\rts\defaultsfml\src\game.cpp(102): warning C4018: '<': signed/unsigned mismatch
+d:\projects\rts game\rts\defaultsfml\src\game.cpp(115): warning C4018: '<': signed/unsigned mismatch
+d:\projects\rts game\rts\defaultsfml\src\game.cpp(117): warning C4018: '<': signed/unsigned mismatch
+  Hoverable.cpp
+  main.cpp
+d:\projects\rts game\rts\defaultsfml\include\profile.h(115): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(158): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(179): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(308): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(322): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(323): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(461): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(500): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(511): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(649): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(675): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(761): warning C4018: '<': signed/unsigned mismatch
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(776): warning C4018: '<': signed/unsigned mismatch
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(866): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(878): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(883): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(889): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(897): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(902): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(910): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(918): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1069): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1078): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1167): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1179): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1184): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1190): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1198): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1203): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1211): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1219): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1220): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1407): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1422): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1510): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1521): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1522): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1604): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1605): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1721): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1726): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1763): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1764): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1809): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1820): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1875): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1880): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1932): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1933): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1958): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1965): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1973): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1981): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1989): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(1996): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(2003): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(2010): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(2018): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(2026): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(2033): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(2041): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(2048): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(2055): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(2062): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(2069): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(2076): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(2083): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(2090): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(2097): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(2104): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(2111): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(2122): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(2129): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(2136): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(2143): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(2150): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(2158): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(2185): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(2186): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(2280): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\projects\rts game\rts\defaultsfml\src\main.cpp(2285): warning C4305: 'argument': truncation from 'double' to 'float'
+  Overlay.cpp
+d:\projects\rts game\rts\defaultsfml\include\profile.h(115): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+  TeamPlayer.cpp
+d:\projects\rts game\rts\defaultsfml\include\profile.h(115): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\teamplayer.cpp(29): warning C4018: '<': signed/unsigned mismatch
+d:\projects\rts game\rts\defaultsfml\src\teamplayer.cpp(33): warning C4018: '<': signed/unsigned mismatch
+d:\projects\rts game\rts\defaultsfml\src\teamplayer.cpp(43): warning C4018: '<': signed/unsigned mismatch
+d:\projects\rts game\rts\defaultsfml\src\teamplayer.cpp(52): warning C4018: '<': signed/unsigned mismatch
+d:\projects\rts game\rts\defaultsfml\src\teamplayer.cpp(60): warning C4018: '<': signed/unsigned mismatch
+d:\projects\rts game\rts\defaultsfml\src\teamplayer.cpp(70): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Profile.cpp
+d:\projects\rts game\rts\defaultsfml\include\profile.h(115): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\profile.cpp(176): warning C4018: '<': signed/unsigned mismatch
+  Sound.cpp
+  Terrian.cpp
+d:\projects\rts game\rts\defaultsfml\include\profile.h(115): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+  TextBox.cpp
+d:\projects\rts game\rts\defaultsfml\include\profile.h(115): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+  TextureObject.cpp
+  Unit.cpp
+d:\projects\rts game\rts\defaultsfml\src\unit.cpp(82): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\unit.cpp(165): warning C4018: '<': signed/unsigned mismatch
+d:\projects\rts game\rts\defaultsfml\src\unit.cpp(210): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\unit.cpp(227): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\unit.cpp(269): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  StatManagerUnit.cpp
+  Generating Code...
+  DefaultSFML.vcxproj -> D:\projects\RTS GAME\RTS\Debug\RTS.exe
