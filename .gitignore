@@ -1,3 +1,4 @@
 /Debug
 *.db
 *.sdf
+/.vs
