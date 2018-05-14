@@ -1,2 +1,2 @@
 #	id	milatary	name		hitpoints 	xSize	ySize	xposOffset	ypossOffset 	textureID
-m	0	1		Barracks	1000		1293	1541	660		1500		0
+m	0	1			Barracks	1000		1293	1541	660			1500		0

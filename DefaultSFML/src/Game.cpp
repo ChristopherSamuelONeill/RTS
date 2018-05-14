@@ -17,9 +17,7 @@ Game::Game(string dir)
 
 	if (dir == "Arena")
 	{
-		m_vPlayers[0].spawnUnit("testing",0,Vector2f(-1000.0f,0.0f), 90.0f);
-		m_vPlayers[1].spawnUnit("testing",0, Vector2f(1000.0f, 0.0f), 270.0f);
-
+	
 		m_vPlayers[0].spawnBuilding("testing", 0, Vector2f(-2000.0f, 0.0f), 90.0f);
 		m_vPlayers[1].spawnBuilding("testing", 0, Vector2f(2000.0f, 0.0f), 270.0f);
 
@@ -118,8 +116,8 @@ void Game::loopClickables(Vector2f pos)
 		{
 			if (m_vPlayers[i].m_vBuildings[x].m_bClicked(pos))
 			{
-				m_vPlayers[i].spawnUnit("testing", 0, Vector2f(-1000.0f, 0.0f), 90.0f);
-				cout << "spawnUnit " << endl;
+				m_vPlayers[i].spawnUnit("testing", 0, m_vPlayers[i].m_vBuildings[x]);
+				
 			}
 
 		}

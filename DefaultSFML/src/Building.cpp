@@ -2,10 +2,16 @@
 
 Building::Building()
 {
+	
 }
 
 Building::Building(int id , Vector2f pos, float rot, string path)
 {
+
+	m_bSpawningUnit = false;
+	m_fTimeofSpawn = 0;
+
+
 	fstream file;
 	string lineData;
 	string temp;
@@ -69,7 +75,7 @@ Building::Building(int id , Vector2f pos, float rot, string path)
 
 
 	file.close();
-
+	m_sfUnitSpawnPos = Vector2f(-1000, -1000);
 	
 
 	//stuffs for rencering
@@ -99,11 +105,24 @@ Building::Building(int id , Vector2f pos, float rot, string path)
 
 }
 
-void Building::spawnUnit(int unitId)
+void Building::spawnUnit(string path, int id)
 {
+	if (!m_bSpawningUnit)
+	{
+		m_bSpawningUnit = true;
+		m_iIdOfSpawningUnit = id;
+		m_sUnitPath = path;
+	}
+	else
+	{
+		//add to queue
+
+		//perhaps make it an object
+	}
+	
 }
 
-void Building::update(float dt)
+string Building::update(float dt)
 {
 	//ensure all emements are up to date
 	m_sfRect.setPosition(m_sfPosition);
@@ -115,6 +134,20 @@ void Building::update(float dt)
 	m_sfBuildingSprite.setPosition(m_sfRect.getPosition());
 	m_sfBuildingSprite.setTexture(m_sfBuildingTexture);
 	m_sfBuildingSprite.setRotation(m_fRotation);
+
+	if (m_bSpawningUnit)
+	{
+		cout << m_fTimeofSpawn << endl;
+		m_fTimeofSpawn += dt;
+		if (m_fTimeofSpawn >= 1)
+		{
+			m_bSpawningUnit = false;
+			m_fTimeofSpawn = 0;
+			return "spawnUnit";
+		}
+	}
+
+	return "";
 }
 
 void Building::draw(RenderTarget & target, RenderStates states) const

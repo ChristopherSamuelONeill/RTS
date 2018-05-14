@@ -1,1 +1,12 @@
-﻿sfml-graphics-d.lib(sfml-graphics-d-2.dll) : fatal error LNK1112: module machine type 'X86' conflicts with target machine type 'x64'
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\WDExpress\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (TrafficManagement.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Achievement.cpp
+  Building.cpp
+d:\projects\rts game\rts\defaultsfml\src\building.cpp(47): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Button.cpp
+d:\projects\rts game\rts\defaultsfml\include\profile.h(115): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\button.cpp(39): warning C4244: 'initializing': conversion from 'size_t' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\button.cpp(49): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\button.cpp(63): warning C4244: 'initializing': conversion from 'size_t' to 'float', possible loss of data
+d:\projects\rts game\rts\defaultsfml\src\button.cpp(69): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+  Generating Code...
+sfml-graphics-d.lib(sfml-graphics-d-2.dll) : fatal error LNK1112: module machine type 'x86' conflicts with target machine type 'x64'

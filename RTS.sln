@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Express 15 for Windows Desktop
+VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TrafficManagement", "DefaultSFML\DefaultSFML.vcxproj", "{403904CA-1B1C-4669-B939-90D894E455EF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RTS", "DefaultSFML\DefaultSFML.vcxproj", "{403904CA-1B1C-4669-B939-90D894E455EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,8 +16,8 @@ Global
 		{403904CA-1B1C-4669-B939-90D894E455EF}.Debug|x64.ActiveCfg = Debug|Win32
 		{403904CA-1B1C-4669-B939-90D894E455EF}.Debug|x64.Build.0 = Debug|Win32
 		{403904CA-1B1C-4669-B939-90D894E455EF}.Debug|x64.Deploy.0 = Debug|Win32
-		{403904CA-1B1C-4669-B939-90D894E455EF}.Debug|x86.ActiveCfg = Debug|Win32
-		{403904CA-1B1C-4669-B939-90D894E455EF}.Debug|x86.Build.0 = Debug|Win32
+		{403904CA-1B1C-4669-B939-90D894E455EF}.Debug|x86.ActiveCfg = Debug|x64
+		{403904CA-1B1C-4669-B939-90D894E455EF}.Debug|x86.Build.0 = Debug|x64
 		{403904CA-1B1C-4669-B939-90D894E455EF}.Release|x64.ActiveCfg = Release|x64
 		{403904CA-1B1C-4669-B939-90D894E455EF}.Release|x64.Build.0 = Release|x64
 		{403904CA-1B1C-4669-B939-90D894E455EF}.Release|x86.ActiveCfg = Release|Win32
@@ -25,5 +25,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95EB7C90-2C6F-4836-A470-D781D15DCF7E}
 	EndGlobalSection
 EndGlobal

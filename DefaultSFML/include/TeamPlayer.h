@@ -32,10 +32,11 @@ public:
 	vector<Building> m_vBuildings; // the players buildings
 
 
+
 	int m_iTeam;
 	int m_iId;
 
-	void spawnUnit(string path, int id, Vector2f pos, float rot);
+	void spawnUnit(string path, int id,Building &targetBuilding );
 	void spawnBuilding(string path, int id, Vector2f pos, float rot);
 
 	void update(float dt);
