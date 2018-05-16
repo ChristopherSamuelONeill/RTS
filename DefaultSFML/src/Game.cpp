@@ -116,7 +116,7 @@ void Game::loopClickables(Vector2f pos)
 		{
 			if (m_vPlayers[i].m_vBuildings[x].m_bClicked(pos))
 			{
-				m_vPlayers[i].spawnUnit("testing", 0, m_vPlayers[i].m_vBuildings[x]);
+				m_vPlayers[i].spawnUnit(i, 0, m_vPlayers[i].m_vBuildings[x]);
 				
 			}
 

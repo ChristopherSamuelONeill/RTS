@@ -4,3 +4,4 @@
 /.vs
 *.log
 /x64
+*.tlog

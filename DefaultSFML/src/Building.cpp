@@ -100,18 +100,17 @@ Building::Building(int id , Vector2f pos, float rot, string path)
 	m_sfCollisionRect = m_sfRect.getGlobalBounds();
 
 
-	cout << endl << "Spawned " << m_sName << endl;
+	cout << "Spawned " << m_sName << endl;
 
 
 }
 
-void Building::spawnUnit(string path, int id)
+void Building::spawnUnit(int nation, int id)
 {
 	if (!m_bSpawningUnit)
 	{
 		m_bSpawningUnit = true;
 		m_iIdOfSpawningUnit = id;
-		m_sUnitPath = path;
 	}
 	else
 	{
@@ -137,7 +136,6 @@ string Building::update(float dt)
 
 	if (m_bSpawningUnit)
 	{
-		cout << m_fTimeofSpawn << endl;
 		m_fTimeofSpawn += dt;
 		if (m_fTimeofSpawn >= 1)
 		{

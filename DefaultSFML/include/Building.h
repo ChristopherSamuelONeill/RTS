@@ -45,7 +45,7 @@ public:
 	bool m_bMilitary;
 	string m_sName;
 
-	void spawnUnit(string path, int id);
+	void spawnUnit(int nation, int id);
 
 	string update(float dt);
 
@@ -54,7 +54,6 @@ public:
 	//spawning unit stuff
 	bool m_bSpawningUnit;
 	int m_iIdOfSpawningUnit;
-	string m_sUnitPath;
 	float m_fTimeofSpawn;
 	Vector2f m_sfUnitSpawnPos; //actual
 	float m_fRotation;

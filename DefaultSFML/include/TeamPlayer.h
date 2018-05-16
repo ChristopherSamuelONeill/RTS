@@ -36,7 +36,7 @@ public:
 	int m_iTeam;
 	int m_iId;
 
-	void spawnUnit(string path, int id,Building &targetBuilding );
+	void spawnUnit(int nation, int id,Building &targetBuilding );
 	void spawnBuilding(string path, int id, Vector2f pos, float rot);
 
 	void update(float dt);

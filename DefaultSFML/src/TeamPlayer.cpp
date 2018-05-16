@@ -12,9 +12,9 @@ TeamPlayer::TeamPlayer(int team, string nation, int id)
 	m_iId = id;
 }
 
-void TeamPlayer::spawnUnit(string path, int id,  Building &targetBuilding)
+void TeamPlayer::spawnUnit(int nation, int id,  Building &targetBuilding)
 {
-	targetBuilding.spawnUnit(path, id);
+	targetBuilding.spawnUnit(nation, id);
 
 
 }
@@ -32,7 +32,6 @@ void TeamPlayer::update(float dt)
 
 		if (buildingTest == "spawnUnit")
 		{
-			cout << "spawned Unit" << endl;
 			m_vUnits.push_back(Unit(m_iId, m_vBuildings[i].m_iIdOfSpawningUnit, m_vBuildings[i].m_sfUnitSpawnPos, m_vBuildings[i].m_fRotation));
 		}
 

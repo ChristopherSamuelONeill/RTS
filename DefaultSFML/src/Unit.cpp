@@ -37,7 +37,7 @@ Unit::Unit(int nation, int id , Vector2f pos, float rot)
 	m_sfUnitSprite.setRotation(m_fRotation);
 
 
-
+	cout << "Spawned " << m_UnitStats.m_sName << endl;
 
 
 }

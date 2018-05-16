@@ -33,7 +33,7 @@ void UnitObject::loadUnits()
 		string temp;
 
 		//England
-		cout << endl << "Loading England Units... ";
+		cout << "Loading England Units... ";
 		file.open("Assets/res/units/England.txt");
 
 		m_vUnits.push_back(vector<StatManagerUnit>()); // empty team
@@ -111,7 +111,7 @@ void UnitObject::loadUnits()
 		cout << "Finished" << endl;
 
 		//Italy
-		cout << endl << "Loading Italy Units... ";
+		cout << "Loading Italy Units... ";
 		file.open("Assets/res/units/Italy.txt");
 
 		m_vUnits.push_back(vector<StatManagerUnit>()); // empty team
@@ -151,7 +151,7 @@ void UnitObject::loadUnits()
 					temp.m_fMovementSpeed = temp.m_fMovementSpeed * 100;
 					temp.m_fSightRange = temp.m_fSightRange * 100; // 100 pixels is a meter
 
-					m_vUnits[0].push_back(temp);
+					m_vUnits[1].push_back(temp);
 
 
 
@@ -178,7 +178,7 @@ void UnitObject::loadUnits()
 					temp.m_fMovementSpeed = temp.m_fMovementSpeed * 100;
 					temp.m_fSightRange = temp.m_fSightRange * 100; // 100 pixels is a meter
 
-					m_vUnits[0].push_back(temp);
+					m_vUnits[1].push_back(temp);
 
 				}
 
