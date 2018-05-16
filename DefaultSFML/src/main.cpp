@@ -12,6 +12,7 @@
 #include "Game.h"
 #include "Sound.h"
 #include "TextureObject.h"
+#include "UnitObject.h"
 
 using namespace std;
 using namespace sf;
@@ -30,7 +31,7 @@ bool DEBUGMODE = true;
 Profile *player;
 SoundObject *sound;
 TextureObject *m_Gametextures;// \brief handle to all game textures
-
+UnitObject *unitObject;
 
 //selections bools
 //_----------------------------------------OLD CODE-------------------------------------
@@ -48,10 +49,13 @@ int main()
 {
 	player = Profile::getInstance();
 	sound = SoundObject::getInstance();
+	unitObject = UnitObject::getInstance();
 	m_Gametextures = TextureObject::getInstance();
+
 	player->loadProfile("default");
 	sound->loadSounds();
 	m_Gametextures->loadTextures();
+	unitObject->loadUnits();
 
 	
 	//luanch game

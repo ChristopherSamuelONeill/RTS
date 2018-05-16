@@ -1,5 +1,4 @@
-#ifndef StatManagerUnit_H
-#define StatManagerUnit_H
+#pragma once
 
 #include <iostream>
 #include <SFML\Graphics.hpp>
@@ -50,7 +49,7 @@ public:
 	int m_iAgeTo;
 	string m_sType;
 	int m_iAbilityID;
+	Vector2f m_sfSize;
 
 
 };
-#endif // !GAME_H

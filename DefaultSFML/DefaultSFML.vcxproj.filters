@@ -120,6 +120,9 @@
     <ClCompile Include="src\Selectable.cpp">
       <Filter>Source Files\Engine</Filter>
     </ClCompile>
+    <ClCompile Include="src\UnitObject.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Achievement.h">
@@ -183,6 +186,9 @@
       <Filter>Header Files\GameObjects</Filter>
     </ClInclude>
     <ClInclude Include="include\Selectable.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UnitObject.h">
       <Filter>Header Files\Engine</Filter>
     </ClInclude>
   </ItemGroup>

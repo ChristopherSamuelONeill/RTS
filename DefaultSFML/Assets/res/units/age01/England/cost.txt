@@ -1,3 +1,0 @@
-# unitid ageId	costType	Cost (per day) 10,000 ticks
-p 0	 0	food		1
-p 4	 0	food		2	

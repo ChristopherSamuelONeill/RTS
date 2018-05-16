@@ -164,6 +164,7 @@
     <ClCompile Include="src\TextureObject.cpp" />
     <ClCompile Include="src\Unit.cpp" />
     <ClCompile Include="src\StatManagerUnit.cpp" />
+    <ClCompile Include="src\UnitObject.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Achievement.h" />
@@ -187,6 +188,7 @@
     <ClInclude Include="include\TextBox.h" />
     <ClInclude Include="include\TextureObject.h" />
     <ClInclude Include="include\StatManagerUnit.h" />
+    <ClInclude Include="include\UnitObject.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

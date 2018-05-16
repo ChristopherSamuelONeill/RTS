@@ -1,5 +1,0 @@
-# id	name	health	attack	attacktpye	range(m) 	rate of atttack defence		movementSpeed(m/s)	melle , sword , spear , arrow , bullet , other carryCap	
-u 0	Peasant	100	1	melle		1		1		1		1.4			0	0	0	0	0	25	25
-m 1	brave	125	4	sword		1.2		1.8		2		1.5			1	0	0	0	0	30	10
-m 2	militia	130	6	sword		1.25		2.2		5		1.5			1	1	1	1	1	30	10
-m 3	warrior 150	10	sword		1.25		2.8		9		1.7			2	2	1	1	1	35	10

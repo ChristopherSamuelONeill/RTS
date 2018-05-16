@@ -25,7 +25,11 @@ public:
 	//Scene texture
 	vector<Texture> m_vBackgroundTextures; // \brief Texture for background
 	vector<Texture> m_vTimeTextures; // \brief Texture for background
-	vector<Texture> m_vUnitTextures;
+	
+									 
+	//0 England
+	//1 Italy
+	vector<vector<Texture>> m_vUnitTextures;
 
 	vector<Texture> m_vBuildPaceHolders; 
 

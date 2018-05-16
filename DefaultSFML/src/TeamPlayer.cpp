@@ -33,7 +33,7 @@ void TeamPlayer::update(float dt)
 		if (buildingTest == "spawnUnit")
 		{
 			cout << "spawned Unit" << endl;
-			m_vUnits.push_back(Unit(m_vBuildings[i].m_sUnitPath, m_vBuildings[i].m_iIdOfSpawningUnit, m_vBuildings[i].m_sfUnitSpawnPos, m_vBuildings[i].m_fRotation));
+			m_vUnits.push_back(Unit(m_iId, m_vBuildings[i].m_iIdOfSpawningUnit, m_vBuildings[i].m_sfUnitSpawnPos, m_vBuildings[i].m_fRotation));
 		}
 
 	}
@@ -80,7 +80,7 @@ void TeamPlayer::DecisionOnTarget(vector<Unit> &otherPlayersUnits, int otherPlay
 							else if (angle > 360) angle = angle - 360;
 
 
-							if (dist > m_vUnits[i].m_fAttackRng[0])
+							if (dist > m_vUnits[i].m_UnitStats.m_fAttackRng[0])
 							{
 
 								// need to walk towards

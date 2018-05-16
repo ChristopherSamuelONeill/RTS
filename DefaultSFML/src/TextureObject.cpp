@@ -133,18 +133,20 @@ void TextureObject::loadTextures()
 		m_vTimeTextures.push_back(sfTempTexture);
 
 
+		m_vUnitTextures.push_back(vector<Texture>());
 		//units
 		if (!sfTempTexture.loadFromFile("./Assets/textures/Units/England/placeHolder01.png"))
 		{
 			
 		};
-		m_vUnitTextures.push_back(sfTempTexture);
+		m_vUnitTextures[0].push_back(sfTempTexture);
 
+		m_vUnitTextures.push_back(vector<Texture>());
 		if (!sfTempTexture.loadFromFile("./Assets/textures/Units/Italy/placeHolder01.png"))
 		{
 		
 		};
-		m_vUnitTextures.push_back(sfTempTexture);
+		m_vUnitTextures[1].push_back(sfTempTexture);
 
 
 		// ui
