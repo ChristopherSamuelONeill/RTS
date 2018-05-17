@@ -156,6 +156,7 @@
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\Overlay.cpp" />
     <ClCompile Include="src\Selectable.cpp" />
+    <ClCompile Include="src\StatManagerBuilding.cpp" />
     <ClCompile Include="src\TeamPlayer.cpp" />
     <ClCompile Include="src\Profile.cpp" />
     <ClCompile Include="src\Sound.cpp" />
@@ -176,6 +177,7 @@
     <ClInclude Include="include\Controller.h" />
     <ClInclude Include="include\Includes.h" />
     <ClInclude Include="include\Selectable.h" />
+    <ClInclude Include="include\StatManagerBuilding.h" />
     <ClInclude Include="include\TeamPlayer.h" />
     <ClInclude Include="include\Unit.h" />
     <ClInclude Include="include\Hoverable.h" />

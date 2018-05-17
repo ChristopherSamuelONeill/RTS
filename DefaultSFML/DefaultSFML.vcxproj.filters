@@ -123,6 +123,9 @@
     <ClCompile Include="src\UnitObject.cpp">
       <Filter>Source Files\Engine</Filter>
     </ClCompile>
+    <ClCompile Include="src\StatManagerBuilding.cpp">
+      <Filter>Source Files\Game Obejcts</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Achievement.h">
@@ -190,6 +193,9 @@
     </ClInclude>
     <ClInclude Include="include\UnitObject.h">
       <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StatManagerBuilding.h">
+      <Filter>Header Files\GameObjects</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
