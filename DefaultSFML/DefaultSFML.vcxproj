@@ -145,6 +145,7 @@
   <ItemGroup>
     <ClCompile Include="src\Achievement.cpp" />
     <ClCompile Include="src\Building.cpp" />
+    <ClCompile Include="src\BuildingObject.cpp" />
     <ClCompile Include="src\Button.cpp" />
     <ClCompile Include="src\CollisionDetection.cpp" />
     <ClCompile Include="src\Controller.cpp" />
@@ -170,6 +171,7 @@
   <ItemGroup>
     <ClInclude Include="include\Achievement.h" />
     <ClInclude Include="include\Building.h" />
+    <ClInclude Include="include\BuildingObject.h" />
     <ClInclude Include="include\Button.h" />
     <ClInclude Include="include\Clickable.h" />
     <ClInclude Include="include\CollisionDetection.h" />

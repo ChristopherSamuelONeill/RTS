@@ -12,69 +12,7 @@ Building::Building(int id , Vector2f pos, float rot, string path)
 	m_fTimeofSpawn = 0;
 
 
-	fstream file;
-	string lineData;
-	string temp;
-	int textureId = 0;
-	m_Gametextures = TextureObject::getInstance();
-	file.open("Assets/res/Buildings/" + path + ".txt");
-
-	if (file.is_open())
-	{
-		while (getline(file, lineData))
-		{
-			istringstream UnitData(lineData);
-			UnitData.str(lineData);
-			int sid;
-			UnitData >> temp;
-
-			if (temp == "#")
-			{
-				//ingore . this line is a comment
-			}
-			else if (temp == "b")
-			{
-				UnitData >> sid;
-				if (sid == id)
-				{
-					float x = 0;
-					float y = 0;
-
-					UnitData >> m_sName >> m_iMaxHitPoints >> x >> y >> textureId;
-					m_sfRelativeUnitSpawnPos = Vector2f(x, y);
-					m_iId = id;
-					m_bMilitary = false;
-					m_fCurrentHitPoints = m_iMaxHitPoints;
-				}
-
-
-			}
-			else if (temp == "m")
-			{
-
-				UnitData >> sid;
-				if (sid == id)
-				{
-					float ox = 0;
-					float oy = 0;
-
-					float sx = 0;
-					float sy = 0;
-
-					UnitData >> m_bMilitary >>  m_sName >> m_iMaxHitPoints >> sx >> sy >> ox >> oy >> textureId;
-					m_sfRelativeUnitSpawnPos = Vector2f(ox, oy);
-					m_sfSize = Vector2f(sx, sy);
-
-					m_iId = id;
-					m_bMilitary = true;
-				}
-
-			}
-		}
-	}
-
-
-	file.close();
+	//cal here
 	m_sfUnitSpawnPos = Vector2f(-1000, -1000);
 	
 
@@ -100,7 +38,7 @@ Building::Building(int id , Vector2f pos, float rot, string path)
 	m_sfCollisionRect = m_sfRect.getGlobalBounds();
 
 
-	cout << "Spawned " << m_sName << endl;
+	cout << "Spawned " << m_stats.m_sName << endl;
 
 
 }
